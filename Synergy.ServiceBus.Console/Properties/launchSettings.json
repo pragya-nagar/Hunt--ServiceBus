@@ -1,0 +1,14 @@
+{
+  "profiles": {
+    "Synergy.ServiceBus.Console": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "ServiceBus__RabbitMQ__Host": "localhost",
+        "ServiceBus__RabbitMQ__Password": "guest",
+        "ServiceBus__RabbitMQ__Port": "5672",
+        "ServiceBus__RabbitMQ__User": "guest",
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}

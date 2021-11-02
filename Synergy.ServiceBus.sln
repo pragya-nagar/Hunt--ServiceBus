@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2050
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Synergy.ServiceBus.RabbitMq", "Synergy.ServiceBus.RabbitMq\Synergy.ServiceBus.RabbitMq.csproj", "{96A2125A-3B88-48B3-B61A-F1581388E42A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Synergy.ServiceBus.Amazon", "Synergy.ServiceBus.Amazon\Synergy.ServiceBus.Amazon.csproj", "{9B38F816-577C-4361-BCCF-E80D18D81468}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Synergy.ServiceBus.Abstracts", "Synergy.ServiceBus.Abstracts\Synergy.ServiceBus.Abstracts.csproj", "{A53F4963-E21A-426E-AB55-F916A6DB3035}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Synergy.ServiceBus.Messages", "Synergy.ServiceBus.Messages\Synergy.ServiceBus.Messages.csproj", "{92CF63C6-0EB8-4736-9308-26032734A563}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Synergy.ServiceBus.Console", "Synergy.ServiceBus.Console\Synergy.ServiceBus.Console.csproj", "{9C48DD0D-9809-47BB-A821-1960A3CEF103}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Synergy.ServiceBus.Extensions", "Synergy.ServiceBus.Extensions\Synergy.ServiceBus.Extensions.csproj", "{47C38BC7-CC50-437F-9033-B6E28C93F14D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{DCDE92E2-CD2D-49B7-9758-1595209E7183}"
+	ProjectSection(SolutionItems) = preProject
+		nuget.config = nuget.config
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{96A2125A-3B88-48B3-B61A-F1581388E42A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96A2125A-3B88-48B3-B61A-F1581388E42A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96A2125A-3B88-48B3-B61A-F1581388E42A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96A2125A-3B88-48B3-B61A-F1581388E42A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B38F816-577C-4361-BCCF-E80D18D81468}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B38F816-577C-4361-BCCF-E80D18D81468}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B38F816-577C-4361-BCCF-E80D18D81468}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B38F816-577C-4361-BCCF-E80D18D81468}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A53F4963-E21A-426E-AB55-F916A6DB3035}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A53F4963-E21A-426E-AB55-F916A6DB3035}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A53F4963-E21A-426E-AB55-F916A6DB3035}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A53F4963-E21A-426E-AB55-F916A6DB3035}.Release|Any CPU.Build.0 = Release|Any CPU
+		{92CF63C6-0EB8-4736-9308-26032734A563}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92CF63C6-0EB8-4736-9308-26032734A563}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92CF63C6-0EB8-4736-9308-26032734A563}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92CF63C6-0EB8-4736-9308-26032734A563}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C48DD0D-9809-47BB-A821-1960A3CEF103}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C48DD0D-9809-47BB-A821-1960A3CEF103}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C48DD0D-9809-47BB-A821-1960A3CEF103}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C48DD0D-9809-47BB-A821-1960A3CEF103}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47C38BC7-CC50-437F-9033-B6E28C93F14D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47C38BC7-CC50-437F-9033-B6E28C93F14D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47C38BC7-CC50-437F-9033-B6E28C93F14D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47C38BC7-CC50-437F-9033-B6E28C93F14D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0AF08279-E80C-469D-9C29-73F9A13BB8BD}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <LangVersion>7.3</LangVersion>
+    <CodeAnalysisRuleSet>..\Synergy.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Synergy.Common" Version="4.20.5" />
+    <PackageReference Include="Synergy.Common.FileStorage.Abstraction" Version="4.20.5" />
+    <PackageReference Include="Synergy.Common.Logging" Version="4.20.5" />
+    <PackageReference Include="Microsoft.CodeAnalysis.FxCopAnalyzers" Version="2.9.3">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="StyleCop.Analyzers" Version="1.1.118">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+  
+  <ItemGroup>
+    <ProjectReference Include="..\Synergy.ServiceBus.Abstracts\Synergy.ServiceBus.Abstracts.csproj" />
+    <ProjectReference Include="..\Synergy.ServiceBus.Messages\Synergy.ServiceBus.Messages.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,40 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <LangVersion>7.1</LangVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="appsettings.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="appsettings.json">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="6.1.1" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.CommandLine" Version="2.2.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.EnvironmentVariables" Version="2.2.4" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="2.2.0" />
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="2.2.0" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="2.2.0" />
+    <PackageReference Include="Synergy.Common.Logging" Version="4.20.5" />
+    <PackageReference Include="RabbitMQ.Client" Version="6.0.0-pre3" />
+    <PackageReference Include="AWSSDK.SimpleNotificationService" Version="3.3.101.35" />
+    <PackageReference Include="AWSSDK.SQS" Version="3.3.100.46" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Synergy.ServiceBus.Abstracts\Synergy.ServiceBus.Abstracts.csproj" />
+    <ProjectReference Include="..\Synergy.ServiceBus.Amazon\Synergy.ServiceBus.Amazon.csproj" />
+    <ProjectReference Include="..\Synergy.ServiceBus.Extensions\Synergy.ServiceBus.Extensions.csproj" />
+    <ProjectReference Include="..\Synergy.ServiceBus.RabbitMq\Synergy.ServiceBus.RabbitMq.csproj" />
+  </ItemGroup>
+
+</Project>
